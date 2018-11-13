@@ -1,16 +1,9 @@
 <context>
-  <input pattern="(hi|hello) *">
-  <output value="Hi! What is your favorite color?"/>
-
-  <context>
-    <sample>
-      <item>Green</item>
-      <item>Blue</item>
-      <item>Red</item>
-    </sample>
-    <input pattern="* $Color *">
-      <output value="Nice! I like it too!"/>
-    </input>
-  </context>
+<input pattern="(hola|que tal) *">
+  <output>
+    <item>Hi!</item>
+    <item>Hello!</item>
+    <item>Good morning $UserName!</item>
+  </output>
 </input>
 </context>

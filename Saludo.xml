@@ -1,4 +1,4 @@
-<context>
+<context order="0" >
   <input pattern="(Hola|que tal|consulta ) *">
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
@@ -9,7 +9,7 @@
       <item>Facturacion</item>
     </sample>
 
-    <context id="Planes">
+    <context order = "1" id="Planes">
       <input pattern="Planes"/>
         <output value="Estos son los planes"/>
     </context>

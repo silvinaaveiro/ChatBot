@@ -3,7 +3,7 @@
 
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
-    <context id="Servicios">
+    <context id="Opciones">
       <sample>
         <item>Planes</item>
         <item>Servicios</item>
@@ -12,6 +12,16 @@
 
       <input pattern="(Planes)*"/>
       <output value="Estos son los planes disponibles"/>
+    
+        <context id="Planes">
+         <sample>
+            <item>Plan de 20mb  Gs 120.000</item>
+            <item>Plan de 50   mb Gs  199.000</item>
+         </sample>
+          
+          <input pattern="(20mb)*"/>
+          <output value="plan de 20 mb"/>
+
     </context>
 
   

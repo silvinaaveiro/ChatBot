@@ -9,13 +9,25 @@
         </sample>
 
         <context>
-        <input pattern="(Aumento|Disminución|Permanencia) *">
-       
-        <output value="Lo contactaremos con un representate.Gracias por Comunicarse."/>
-        
-        </input>
+            <input pattern="(Aumento) *">
+
+                <output value="Solo los cargos diferenciados del plan se abonan cada mes."/>
+
+            </input>
+            <input pattern="(Disminución) *">
+
+                <output value="Los cambios de Planes a un plan más bajo no están disponibles a menos que se cumpla la permanencia solo se puede realizar UPGRADE del servicio."/>
+
+            </input>
+
+            <input pattern="(Permanencia) *">
+
+                <output value="Un cambio de plan no renueva la permanecía, la misma sigue vigente por el tiempo  que dure el contrato."/>
+
+            </input>
+
         </context>
-    
+
     </input>
 
 </context>

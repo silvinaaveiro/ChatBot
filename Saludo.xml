@@ -1,3 +1,4 @@
+<context>
 <input pattern="(Hola|que tal|consulta ) *">
   <output value="Hola! En que te podemos ayudar hoy?"/>
 
@@ -10,3 +11,4 @@
     </sample>
   </context>
 </input>
+</context>

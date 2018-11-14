@@ -11,7 +11,7 @@
       </sample>
 
 
-      <input pattern="*Planes*">
+      <input pattern="* $Planes *">
 
         <context>
           <sample>

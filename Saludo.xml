@@ -2,16 +2,7 @@
     <input pattern="(Hola|que tal|consulta ) *"/>
       <output value="Hola! En que te podemos ayudar hoy?"/>
    
-     
-      <context>
-    <input pattern="* $Color"/>
-    <sample>
-      <item>Green</item>
-      <item>Blue</item>
-      <item>Red</item>
-    </sample>
-  </context>
-</input>
+   
 
 
  </input>

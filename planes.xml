@@ -2,10 +2,24 @@
     <input pattern="(Planes)*">
         <output value="Elija una opcion"/>
 
-            <sample>
-                <item>Costos</item>
-                <item>Cambio de Planes</item>
-            </sample>
+        <sample>
+            <item>Costos</item>
+            <item>Cambio de Planes</item>
+        </sample>
+
+        <context>
+            <input pattern="(*) *">
+
+                <output value="Gracias por Comunicarse."/>
+
+            </input>
+
+
+        </context>
+
+
+
+
     </input>
 
 </context>

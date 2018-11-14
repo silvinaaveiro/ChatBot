@@ -1,0 +1,46 @@
+<context>
+    <input pattern="(Servicios)*">
+        <output value="Elija una opcion"/>
+
+        <sample>
+            <item>IP Publica</item>
+            <item>Gestión de Equipos</item>
+            <item>Equipo en Modo Puente</item>
+            <item>Visualización de Cámaras</item>
+            <item>WIFI Extender</item>
+        </sample>
+
+        <context>
+            <input pattern="(IP Publica) *">
+
+                <output value="El servicio de IP pública no se encuentra disponible para el  PLAN HOME."/>
+
+            </input>
+            <input pattern="(Gestión de Equipos) *">
+
+                <output value="La gestión del equipo no se le es facilitado al cliente toda modificación que desea realizar debe contactar al *111"/>
+
+            </input>
+
+            <input pattern="(Equipo en Modo Puente) *">
+
+                <output value="El equipo no posee dicha función. Solo se puede apagar el WIFI del router y utilizar los puertos LAN."/>
+
+            </input>
+
+            <input pattern="(Visualización de Cámaras) *">
+
+                <output value="Para el servicio de cámaras o Domótica se hace un redireccionamiento de puertos. Por lo cual debes facilitarnos la MAC de tu equipo la IP del mismo y el PUERTO que desea liberar. Una vez realizado los cambios un asesor se comunicara con usted."/>
+
+            </input>
+            <input pattern="(WIFI Extender) *">
+
+                <output value="Para el obtener el servicio de WIFI Extender deberá abonar el costo del de GS 690.000 mil que se puede fraccionar hasta 12 meses."/>
+
+            </input>
+
+        </context>
+
+    </input>
+
+</context>

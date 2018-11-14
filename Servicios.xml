@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(Servicios)*">
+    <input pattern="(Servicios|Servicio )*">
         <output value="Elija una opcion"/>
 
         <sample>

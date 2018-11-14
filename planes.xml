@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(Planes)*">
+    <input pattern="(Planes | plan)*">
         <output value="Elija una opcion"/>
 
         <sample>

@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(Costos)*">
+    <input pattern="(Costos| Costo)*">
         <output value="Los planes existentes son"/>
 
         <sample>

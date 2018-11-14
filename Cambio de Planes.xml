@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(Cambio de Planes)*">
+    <input pattern="(Cambio de Planes | Cambio)*">
         <output value="Elija una Opción"/>
 
         <sample>

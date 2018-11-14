@@ -26,9 +26,6 @@
 
             </input>
 
-        </context>
-
-        <context>
             <input pattern="(*) *">
 
                 <output value="Gracias por Comunicarse."/>
@@ -38,9 +35,7 @@
 
         </context>
 
-
-
-
+        
 
     </input>
 

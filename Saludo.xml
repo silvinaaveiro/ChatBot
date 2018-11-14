@@ -1,19 +1,18 @@
 <context>
-    <input pattern="(Hola|que tal|consulta ) *">
-      <output value="Hola! En que te podemos ayudar hoy?"/>
-   
-  
-        <sample>
-          <item>Planes</item>
-          <item>Servicios</item>
-          <item>Facturacion</item>
-        </sample>
-     
-      <input pattern="Planes">
-          <output="Estos son los planes"/>
-          <context id="Planes">
-            
-          </context>
-      </input>
-    
+  <input pattern="(Hola|que tal|consulta ) *">
+    <output value="Hola! En que te podemos ayudar hoy?"/>
+
+
+    <sample>
+      <item>Planes</item>
+      <item>Servicios</item>
+      <item>Facturacion</item>
+    </sample>
+
+    <context id="Planes">
+      <input pattern="Planes"/>
+        <output="Estos son los planes"/>
+    </context>
+  </input>
+
 </context>

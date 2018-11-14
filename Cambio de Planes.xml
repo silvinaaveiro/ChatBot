@@ -1,0 +1,21 @@
+<context>
+    <input pattern="(Cambio de Planes)*">
+        <output value="Elija una Opción"/>
+
+        <sample>
+            <item>Aumento de Plan</item>
+            <item>Disminución del Plan</item>
+            <item>Permanencia</item>
+        </sample>
+
+        <context>
+        <input pattern="(Aumento|Disminución|Permanencia) *">
+       
+        <output value="Lo contactaremos con un representate.Gracias por Comunicarse."/>
+        
+        </input>
+        </context>
+    
+    </input>
+
+</context>

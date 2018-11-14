@@ -10,11 +10,22 @@
         <item>Facturacion</item>
       </sample>
 
-      <input pattern="*Planes*"/>
-        <output value="Estos son los planes disponibles"/>
-     
+
+      <input pattern="*Planes*">
+        <context id="Planes"/>
+      </input>
+      
     </context>
 
+
+
+    <context id="Planes">
+      <sample>
+        <item>Planes A</item>
+        <item>Servicios A</item>
+
+      </sample>
+    </context>
 
 
 

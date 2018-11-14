@@ -10,7 +10,7 @@
         <item>Facturacion</item>
       </sample>
 
-      <input pattern="* $Color *">
+      <input pattern="* $Text *">
         <output value="Estos son los planes disponibles"/>
       </input>
     </context>

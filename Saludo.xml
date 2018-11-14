@@ -1,9 +1,12 @@
-<context>
-<input pattern="(hola|que tal) *">
-  <output>
-    <item>Hi!</item>
-    <item>Hello!</item>
-    <item>Good morning $UserName!</item>
-  </output>
+<input pattern="(Hola|que tal|consulta ) *">
+  <output value="Hola! En que te podemos ayudar hoy?"/>
+
+  <context>
+    <input pattern="* $Consulta"/>
+    <sample>
+      <item>Planes</item>
+      <item>Servicios</item>
+      <item>Facturacion</item>
+    </sample>
+  </context>
 </input>
-</context>

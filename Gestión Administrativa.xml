@@ -1,5 +1,5 @@
 <context>
-    <input pattern="(Gestión Administrativa|Administrativa|Finanzas|Gestion|Administracion)*">
+    <input pattern="*(Gestión Administrativa|Administrativo|Gestión|Administración)*">
         <output value="Elija una opcion"/>
 
         <sample>

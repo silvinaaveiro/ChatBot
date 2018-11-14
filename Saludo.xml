@@ -7,7 +7,7 @@
     <sample>
       <item>Planes</item>
       <item>Servicios</item>
-      <item>Facturacion</item>
+      <item>Gestión Administrativa</item>
     </sample>
     <context>
       <input pattern="(*) *">

@@ -7,7 +7,7 @@
             <item>Costo de la Instalación</item>
             <item>Mudanza de Domicilio</item>
             <item>Cancelación del Servicio</item>
-            <item>Conversar con un Representante</item>
+            <item>Contactar con un  Representante</item>
         </sample>
 
         <context>
@@ -33,7 +33,7 @@
                 <output value="Deberá abonar por las facturas pendientes, si esta con un contrato vigente, deberá abonar un monto adicional de 500 mil por la baja anticipada."/>
 
             </input>
-            <input pattern="(Conversar con un Representante) *">
+            <input pattern="(Contactar con un  Representante) *">
 
                 <output value="Debe marcar *111 desde tu línea personal o 021-2177000 para hablar con un representante."/>
 

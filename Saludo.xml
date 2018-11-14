@@ -10,21 +10,14 @@
         <item>Facturacion</item>
       </sample>
 
+      <context id="Planes">
+        <input pattern="(Planes)*"/>
+        <output value="Estos son los planes disponibles"/>
+      </context>
 
-      <input pattern="* $Text *">
-
-        <context>
-          <sample>
-            <item>Planes A</item>
-            <item>Servicios A</item>
-          </sample>
-        </context>
-
-      </input>
+     
 
     </context>
-
-
   </input>
 </context>
 

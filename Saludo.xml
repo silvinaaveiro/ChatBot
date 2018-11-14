@@ -1,23 +1,22 @@
 <context>
-  <input pattern="(Hola|que tal|consulta ) *">
+  <input pattern="(Hola| que tal| consulta ) *">
 
     <output value="Hola! En que te podemos ayudar hoy?"/>
-
-    <context>
+  
       <sample>
         <item>Planes</item>
         <item>Servicios</item>
         <item>Facturacion</item>
       </sample>
-    </context>
-
+ 
+ </input>
 
 
     <context id="Planes">
       <input pattern="Planes"/>
       <output value="Estos son los planes"/>
     </context>
-    
-  </input>
+
+ 
 
 </context>

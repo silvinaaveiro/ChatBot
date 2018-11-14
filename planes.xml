@@ -1,13 +1,12 @@
 <context>
     <input pattern="(Planes)*">
-        <output value="Los planes son"/>
+        <output value="Elija una opcion"/>
 
             <sample>
-                <item>plan1</item>
-                <item>plan2</item>
-
+                <item>Costos</item>
+                <item>Cambio de Planes</item>
             </sample>
-     
+    
 
     </input>
 

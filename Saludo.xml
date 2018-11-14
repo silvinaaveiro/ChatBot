@@ -6,14 +6,14 @@
         <sample>
           <item>Planes</item>
           <item>Servicios</item>
-        <item>Facturacion</item>
+          <item>Facturacion</item>
         </sample>
      
       <input pattern="Planes">
           <output="Estos son los planes"/>
           <context id="Planes">
-            ...
+            
           </context>
       </input>
-    </input>
+    
 </context>

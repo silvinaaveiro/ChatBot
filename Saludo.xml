@@ -3,4 +3,14 @@
       <output value="Hola! En que te podemos ayudar hoy?"/>
     </input>
      
+     <input pattern="* $Consulta"/>
+          <sample>
+            <item>Planes</item>
+            <item>Servicios</item>
+          <item>Facturacion</item>
+          </sample>
+    
+      </input>
+
+
 </context>

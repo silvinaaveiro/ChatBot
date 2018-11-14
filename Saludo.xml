@@ -10,7 +10,7 @@
         <item>Facturacion</item>
       </sample>
 
-      <input pattern="* $Text *">
+      <input pattern="*Planes*">
         <output value="Estos son los planes disponibles"/>
       </input>
     </context>

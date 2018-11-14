@@ -10,9 +10,9 @@
         </sample>
 
         <context>
-        <input pattern="(20|50) *">
+        <input pattern="(20|50|70|100) *">
        
-        <output value="gracias"/>
+        <output value="Lo contactaremos con un representate.Gracias por Comunicarse."/>
         
         </input>
         </context>

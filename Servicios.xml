@@ -18,7 +18,7 @@
             </input>
             <input pattern="(Gestión de Equipos) *">
 
-                <output value="La gestión del equipo no se le es facilitado al cliente toda modificación que desea realizar debe contactar al *111"/>
+                <output value="La gestión del equipo no se le es facilitado al cliente toda modificación que desea realizar debe contactar al *111 desde tu línea personal o 021-2177000"/>
 
             </input>
 
@@ -30,7 +30,7 @@
 
             <input pattern="(Visualización de Cámaras) *">
 
-                <output value="Para el servicio de cámaras o Domótica se hace un redireccionamiento de puertos. Por lo cual debes facilitarnos la MAC de tu equipo la IP del mismo y el PUERTO que desea liberar. Una vez realizado los cambios un asesor se comunicara con usted."/>
+                <output value="Para el servicio de cámaras o Domótica se hace un redireccionamiento de puertos. Por lo cual debes facilitarnos la MAC de tu equipo la IP del mismo y el PUERTO que desea liberar. Estas acciones debes realizarla con un asesor. Comunicate al *111 desde tu línea personal o 021-2177000."/>
 
             </input>
             <input pattern="(WIFI Extender) *">

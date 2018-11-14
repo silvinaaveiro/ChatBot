@@ -9,7 +9,15 @@
         <item>Servicios</item>
         <item>Facturacion</item>
       </sample>
-   
+   <context>
+            <input pattern="(*) *">
+
+                <output value="Gracias por Comunicarse."/>
+
+            </input>
+           
+
+        </context>
 
   </input>
 </context>

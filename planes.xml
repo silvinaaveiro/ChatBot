@@ -1,15 +1,15 @@
 <context>
-    <input pattern="(Planes)*"/>
-    <output value="Los planes son"/>
+    <input pattern="(Planes)*">
+        <output value="Los planes son"/>
 
-    <context id="Planes">
-        <sample>
-            <item>plan1</item>
-            <item>plan2</item>
-           
-        </sample>
-    </context>
+        <context id="Planes">
+            <sample>
+                <item>plan1</item>
+                <item>plan2</item>
 
+            </sample>
+        </context>
 
+    </input>
 
 </context>

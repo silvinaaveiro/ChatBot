@@ -1,0 +1,15 @@
+<context>
+    <input pattern="(Costos)*">
+        <output value="Los planes existentes son"/>
+
+            <sample>
+                <item>20 MB Gs 120.000</item>
+                <item>50 MB Gs 199.000</item>
+                <item>70 MB Gs 249.000</item>
+                <item>100 MB Gs 299.000</item>
+            </sample>
+    
+
+    </input>
+
+</context>

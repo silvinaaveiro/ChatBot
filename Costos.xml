@@ -8,9 +8,12 @@
             <item>70 MB Gs 249.000</item>
             <item>100 MB Gs 299.000</item>
         </sample>
-        
+
+        <context>
         <input pattern="*"/>
         <output value="gracias"/>
+        </context>
+    
     </input>
 
 </context>

@@ -2,7 +2,15 @@
     <input pattern="(Hola|que tal|consulta ) *"/>
       <output value="Hola! En que te podemos ayudar hoy?"/>
    
-   
+    <context>
+        <input pattern="* $Consulta"/>
+          <sample>
+            <item>Planes</item>
+            <item>Servicios</item>
+          <item>Facturacion</item>
+          </sample>
+      </context>
+      </input>
 
 
 

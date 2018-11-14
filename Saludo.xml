@@ -4,20 +4,20 @@
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
     <context id="Servicios">
-        <sample>
-          <item>Planes</item>
-          <item>Servicios</item>
-          <item>Facturacion</item>
-        </sample>
+      <sample>
+        <item>Planes</item>
+        <item>Servicios</item>
+        <item>Facturacion</item>
+      </sample>
+
+      <input pattern="(Planes)*"/>
+      <output value="Estos son los planes disponibles"/>
     </context>
 
-      <context id="Planes">
-        <input pattern="(Planes)*"/>
-        <output value="Estos son los planes disponibles"/>
-      </context>
   
-     
-  
+
+
+
   </input>
 </context>
 

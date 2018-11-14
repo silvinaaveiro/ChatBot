@@ -1,5 +1,5 @@
 <context>
-  <input pattern="(Hola| que tal| consulta ) *">
+  <input pattern="(Hola|quetal|consulta ) *">
 
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
@@ -14,7 +14,7 @@
       <output value="Estos son los planes disponibles"/>
     </context>
 
-    
+
   </input>
 </context>
 

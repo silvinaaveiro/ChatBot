@@ -11,7 +11,7 @@
 
     <context id="Planes">
       <input pattern="Planes"/>
-        <output="Estos son los planes"/>
+        <output value="Estos son los planes"/>
     </context>
   </input>
 

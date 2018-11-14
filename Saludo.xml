@@ -3,7 +3,7 @@
 
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
-    <context id="Opciones">
+    <context>
       <sample>
         <item>Planes</item>
         <item>Servicios</item>

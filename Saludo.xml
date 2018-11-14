@@ -12,23 +12,17 @@
 
 
       <input pattern="*Planes*">
-        <context id="Planes"/>
+
+        <context>
+          <sample>
+            <item>Planes A</item>
+            <item>Servicios A</item>
+          </sample>
+        </context>
+
       </input>
-      
+
     </context>
-
-
-
-    <context id="Planes">
-      <sample>
-        <item>Planes A</item>
-        <item>Servicios A</item>
-
-      </sample>
-    </context>
-
-
-
 
 
   </input>

@@ -10,7 +10,8 @@
         </sample>
 
         <context>
-        <input pattern="*"/>
+        <input pattern="(20|50) *">
+       
         <output value="gracias"/>
         </context>
     

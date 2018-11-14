@@ -1,0 +1,54 @@
+<context>
+    <input pattern="(Gestión Administrativa|Administrativa|Finanzas|Gestion|Administracion)*">
+        <output value="Elija una opcion"/>
+
+        <sample>
+            <item>Duración del Contrato</item>
+            <item>Costo de la Instalación</item>
+            <item>Mudanza de Domicilio</item>
+            <item>Cancelación del Servicio</item>
+            <item>Conversar con un Representante</item>
+        </sample>
+
+        <context>
+            <input pattern="(Duración del Contrato) *">
+
+                <output value="Todos los contratos tienen una permanencia de 12 meses mínimo."/>
+
+            </input>
+            <input pattern="(Costo de la Instalación) *">
+
+                <output value="La instalación está incluida cuando se adquiere el plan"/>
+
+            </input>
+
+            <input pattern="(Mudanza de Domicilio) *">
+
+                <output value="La primera mudanza no tiene costo dentro del plazo del contrato, luego las posteriores cuestan Gs 500.000 por mudanza."/>
+
+            </input>
+
+            <input pattern="(Cancelación del Servicio) *">
+
+                <output value="Deberá abonar por las facturas pendientes, si esta con un contrato vigente, deberá abonar un monto adicional de 500 mil por la baja anticipada."/>
+
+            </input>
+            <input pattern="(Conversar con un Representante) *">
+
+                <output value="Debe marcar *111 desde tu línea personal o 021-2177000 para hablar con un representante."/>
+
+            </input>
+
+            <input pattern="(*) *">
+
+                <output value="Gracias por Comunicarse."/>
+
+            </input>
+
+        </context>
+
+
+
+    </input>
+
+</context>

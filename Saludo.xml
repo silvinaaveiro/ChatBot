@@ -1,5 +1,5 @@
 <context>
-  <input pattern="(Hola|Buen dia|Que tal| Buenas Tardes| Buenas Noches) *">
+  <input pattern="(Hola|Buen dia|Qué tal| Buenas Tardes| Buenas Noches) *">
 
     <output value="Hola! En que te podemos ayudar hoy?"/>
 
